@@ -1,0 +1,42 @@
+# ChatBot App (Laravel 12 + OAuth2 + Passport)
+
+This is a Laravel 12-based ChatBot application built for a recruitment test. It includes OAuth2 authentication using Laravel Passport, multi-factor authentication (MFA), CRUD operations, a follow-up module, and real-time chat features.
+
+---
+
+## 🚀 Features
+
+- ✅ Laravel Passport (OAuth2) authentication
+- ✅ Multi-Factor Authentication (MFA) via Email
+- ✅ CRUD for Customers, Chat Messages, and Follow-Ups
+- ✅ ChatBot integration
+- ✅ Real-time user-to-user chat (if implemented)
+- ✅ Google/Facebook login ready (via Laravel Socialite)
+- ✅ AdminLTE dashboard UI
+
+---
+
+## 🛠️ Setup Instructions
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/sachin8800/chatbot-app.git
+cd chatbot-app
+1 composer install
+2 npm install && npm run build
+3 cp .env.example .env
+4 php artisan key:generate
+5 php artisan migrate
+6 php artisan passport:install
+You can run all Laravel tests using:
+7 php artisan test
+🔐 OAuth2 Access
+Use Laravel Passport to generate personal access tokens or connect using Postman with the Authorization: Bearer {token} header.
+🙋 Author
+Sachin Kumar
+GitHub: sachin8800
+📄 License
+This project was developed as part of a recruitment test. It is free for educational or demonstration purposes only.
+
+
